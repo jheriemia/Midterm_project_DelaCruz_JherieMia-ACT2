@@ -1,0 +1,72 @@
+
+
+.home{
+     height: 100vh;
+     width: 100;
+     background-image:url(/Image/sunflower.jpg);
+     image-rendering: -webkit-optimize-contrast;
+     background-size: cover;
+     background-position: center;
+
+}
+
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 45px;
+    padding-left: 8%;
+    padding-right: 8%;
+}
+
+.top{
+    color: rgb(119, 30, 30);
+    font-size: 35px;
+    letter-spacing: 1px;
+    cursor: pointer;
+}
+
+nav ul li{
+    list-style-type: none;
+    display: inline-block;
+    padding: 10px 25px;
+    margin-top: 5px;
+}
+
+nav ul li a{
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
+    text-transform: capitalize;
+    border: 1px solid black;
+    border-radius: 3px;
+    padding: 10px 20px
+}
+
+nav ul li a:hover{
+    color: green;
+    transition: 5s;
+}
+
+.site-intro{
+    text-align: center;
+}
+
+.about{
+    background-image: url(/Image/666673db2595dfa76b97e562c611dc21.jpg);
+    image-rendering: -webkit-optimize-contrast;
+    background-position: bottom;
+    background-size: auto;
+    background-size: cover;
+    text-decoration: none;
+}
+
+
+
+.contacts{
+    background-color: green;
+}
+
+.social{
+    background-color: green;
+}
